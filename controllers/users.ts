@@ -37,7 +37,8 @@ export const putUsuario = ( req: Request, res: Response ) => {
     
     res.json({
         msg: 'PutUsuario',
-        body
+        body, 
+        id
     });
 
 }
